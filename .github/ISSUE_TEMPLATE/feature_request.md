@@ -2,19 +2,20 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
-assignees: ''
+labels: 'enhancement'
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Summary
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+* OS: { type-or-version }
+* Architecture: { 64bit, 32bit, ARM, PowerPC, s390 }
+* AIPulse version: { pip3 show ai-pulse }
+* Python version: { python3 -V }
+* AI Module : { ai_module_name }
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Description
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+{{{
+  A clear explanation of your proposal. Please read the contributing guidelines before submit:
+}}}
