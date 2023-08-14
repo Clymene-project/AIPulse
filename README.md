@@ -1,2 +1,2 @@
 # AIPulse
-AIPulse: A real-time data collection and monitoring tool for deep learning models. Capture the heartbeat of your AI.
+AIPulse: Tools for real-time monitoring of deep learning model training progress. Capture the heartbeat of your AI.
