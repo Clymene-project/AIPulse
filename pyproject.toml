@@ -1,3 +1,29 @@
+[project]
+name = "ai-pulse"
+dynamic = ["version"]
+authors = [
+    { name = "allen kim", email = "clymeneallen@gmail.com" }
+]
+
+readme = "README.md"
+
+requires-python = ">=3.9"
+LICENSE = "Apache-2.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[project.scripts]
+ai-pulse = "aipulse.script:run"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aipulse"]
+
+[project.urls]
+"Homepage" = "https://clymene-project.github.io/ai-pulse/"
